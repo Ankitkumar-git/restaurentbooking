@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 24px 32px 0 32px;
+}
+
+.header-title {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 24px;
+  border-top: 1px solid #555;
+  padding: 12px 0;
+}
+
+.header-nav .nav-link {
+  font-size: 15px;
+  color: #4a9eff;
+  cursor: pointer;
+}
+
+.header-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+  background-color: #2d2d2d;
+  color: white;
+  padding: 16px 32px;
+  margin-top: 48px;
+}
+
+.footer p {
+  font-size: 14px;
+  margin: 0;
+  color: white;
+}
+
+/* Page */
+.page {
+  padding: 32px;
+  max-width: 1100px;
+}
+
+.page h1 {
+  font-size: 34px;
+  margin-bottom: 24px;
+}
+
+/* Home */
+.featured-card {
+  margin-bottom: 40px;
+}
+
+.featured-img {
+  width: 100%;
+  max-height: 480px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 14px;
+}
+
+.featured-card h2 {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+
+.featured-card p {
+  font-size: 15px;
+  color: #444;
+  margin-bottom: 2px;
+}
+
+/* About */
+.about-heading {
+  font-size: 34px;
+  margin-bottom: 24px;
+  display: block;
+}
+
+.page p {
+  font-size: 15px;
+  line-height: 1.75;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+/* Restaurants */
+.restaurant-card {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 28px;
+  padding-bottom: 28px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.restaurant-img {
+  width: 370px;
+  height: 250px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.restaurant-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px;
+}
+
+.restaurant-info h2 {
+  font-size: 22px;
+}
+
+.restaurant-info p {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.restaurant-meta {
+  color: #555;
+  font-size: 14px;
+}
+
+.view-more-btn {
+  background-color: #4a9eff;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.view-more-btn:hover {
+  background-color: #2f7de0;
+}
+
+/* Restaurant Details */
+.menu-heading {
+  font-size: 28px;
+  margin-top: 32px;
+  margin-bottom: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+}
+
+.menu-grid {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.menu-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px 24px;
+  min-width: 200px;
+}
+
+.menu-card h3 {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.menu-card p {
+  font-size: 15px;
+  color: #444;
+  margin: 0;
+}
